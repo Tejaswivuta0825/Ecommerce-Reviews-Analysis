@@ -1,26 +1,76 @@
 
-# Ecommerce Reviews Data Analysis
+Ecommerce Reviews Data Analysis
 
-This project focuses on analyzing an Ecommerce Reviews dataset using Python and its data analysis libraries. It includes data preprocessing, handling missing values, removing duplicates, and detecting outliers.
+Project Overview
 
-Exploratory Data Analysis (EDA) is performed using **Univariate, Bivariate, and Multivariate Analysis** to understand customer ratings, sentiment, helpful votes, review patterns, and verified purchases.
+This project focuses on analyzing an Ecommerce Reviews dataset using Python. The main goal is to clean the data, explore customer reviews, and understand rating patterns and customer sentiments through different visualizations.
 
-### Tools & Technologies
+Dataset Description
+
+The dataset contains the following columns:
+
+- "review_id": Unique review identifier
+- "user_id": Customer identifier
+- "sentiment": Customer review sentiment
+- "helpful_votes": Helpful votes received
+- "rating": Customer rating
+- "review_text": Written customer feedback
+- "verified_purchase": Purchase verification status
+- "product_id": Product identifier
+
+Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Checked dataset structure and data types.
+- Identified and handled missing values.
+- Removed duplicate records.
+- Detected potential outliers using the IQR method.
+- Created a new feature called "review_length".
+- Exported the cleaned dataset as a CSV file.
+
+Exploratory Data Analysis (EDA)
+
+1. Univariate Analysis
+
+Analyzed individual variables using:
+
+- Count Plot
+- Histogram
+- KDE Plot
+- Box Plot
+- Pie Chart
+- Horizontal Bar Chart
+
+2. Bivariate Analysis
+
+Explored relationships between two variables using:
+
+- Scatter Plot
+- Joint Plot
+- Box Plot
+- Violin Plot
+
+3. Multivariate Analysis
+
+Analyzed multiple variables together using:
+
+- Correlation Heatmap
+- Bubble Chart
+
+Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook / Google Colab
+- Google Colab
 
-### Key Activities
-- Data cleaning and preprocessing
-- Handling missing values and duplicates
-- Outlier detection
-- Univariate analysis
-- Bivariate analysis
-- Multivariate analysis
-- Data visualization and insights
+Project Outcome
 
-### Objective
-To explore ecommerce customer reviews, identify meaningful patterns, and understand customer feedback through data analysis and visualization.
+This analysis helped understand customer ratings, sentiment distribution, review patterns, and relationships between different features of ecommerce reviews.
+
+Conclusion
+
+The project provided practical experience in data preprocessing, exploratory data analysis, and data visualization using Python.
